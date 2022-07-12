@@ -1,0 +1,4 @@
+output
+*.config.json
+bin
+obj

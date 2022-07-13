@@ -129,6 +129,10 @@ namespace Coolr.Api
                             {
                                 sw.WriteLine("[");
                             }
+                            else
+                            {
+                                sw.Write(",");
+                            }
                             sw.Write(records.Substring(1, records.LastIndexOf("]") - 1));
                         }
                         if (!UsePaging)
